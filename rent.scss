@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url(./resources/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./resources/Inter-VariableFont_slntwght.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./resources/Poppins-SemiBold.ttf);
+}
+
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.top {
+    font-family: "DM Sans";
+    background-image: url('./images/top-background-image.png');
+    height: 790px;
+    width: 1440;
+    padding-top: 10px;
+
+    .overlay {
+        position: absolute;
+        width: 1440px;
+        height: 790px;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(200.44deg, rgba(0, 0, 0, 0.0001) 16.41%, rgba(0, 0, 0, 0.51) 77.16%);
+        z-index: 1;
+    }
+
+    header {
+        border-bottom: 1px solid white;
+        width: 85%;
+        margin: 30px auto;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            width: 48%;
+            justify-content: space-between;
+            margin-left: 226px;
+            font-size: 18px;
+            font-weight: 400;
+
+            a {
+                padding: 20px;
+
+                &:first-child {
+                    border-bottom: 2px solid white;
+                    padding-bottom: 25px;
+                }
+            }
+
+        }
+
+    }
+
+    .mido {
+        width: 85%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .welcome-address {
+            // margin: 40px auto;
+            color: white;
+            font-family: "Inter";
+            font-weight: 700;
+            font-size: 52px;
+            width: 584px;
+            line-height: 70px;
+            letter-spacing: -1px;
+            text-transform: capitalize;
+
+        }
+
+        .map {
+            width: fit-content;
+
+            .nest {
+                width: 408px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .dummy-map{
+                    img{
+                        width:inherit;
+                    }
+                }
+
+                .back-drop {
+                    width: 408px;
+                    height: 88px;
+                    background-color: #ffff;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .drop-menu {
+                        height: 58px;
+                        background-color: #f9f9f9;
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                        font-family: "Poppins";
+                        color: #252B42;
+                        font-weight: 500;
+                        font-size: 14px;
+                        letter-spacing: .2px;
+                        border: #E6E6E6 1px solid;
+    
+
+                        &:first-child {
+                            width: 128px;
+                            border-radius: 5px 0 0 5px;
+                            &::after{
+                                // position: absolute;
+                                margin-left: 15px;
+                                content: url('./images/Vector.png');
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            width: 176px;
+                            &::after{
+                                margin-left: 15px;
+                                content: url(./images/Vector.png);
+                            }
+                        }
+
+                        &:last-child{
+                            width: 58px;
+                            background-color: #23A6F0;
+                            border-radius: 0 5px 5px 0;
+                        }
+
+                        #type {
+                            display: none;
+                            text-align: center;
+                            width: inherit;
+                            height: inherit;
+
+                            &:hover {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.next1{
+    width: 85%;
+    border: 1px solid #23A6F0;
+    height: 623px;
+    margin: 2px auto;
+}

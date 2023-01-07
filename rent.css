@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url(./resources/DMSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./resources/Inter-VariableFont_slntwght.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./resources/Poppins-SemiBold.ttf);
+}
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.top {
+  font-family: "DM Sans";
+  background-image: url("./images/top-background-image.png");
+  height: 790px;
+  width: 1440;
+  padding-top: 10px;
+}
+
+.top .overlay {
+  position: absolute;
+  width: 1440px;
+  height: 790px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(200.44deg, rgba(0, 0, 0, 0.0001) 16.41%, rgba(0, 0, 0, 0.51) 77.16%);
+  z-index: 1;
+}
+
+.top header {
+  border-bottom: 1px solid white;
+  width: 85%;
+  margin: 30px auto;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 48%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 226px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.top header nav a {
+  padding: 20px;
+}
+
+.top header nav a:first-child {
+  border-bottom: 2px solid white;
+  padding-bottom: 25px;
+}
+
+.top .mido {
+  width: 85%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top .mido .welcome-address {
+  color: white;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 52px;
+  width: 584px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.top .mido .map {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.top .mido .map .nest {
+  width: 408px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top .mido .map .nest .dummy-map img {
+  width: inherit;
+}
+
+.top .mido .map .nest .back-drop {
+  width: 408px;
+  height: 88px;
+  background-color: #ffff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top .mido .map .nest .back-drop .drop-menu {
+  height: 58px;
+  background-color: #f9f9f9;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  font-family: "Poppins";
+  color: #252B42;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .2px;
+  border: #E6E6E6 1px solid;
+}
+
+.top .mido .map .nest .back-drop .drop-menu:first-child {
+  width: 128px;
+  border-radius: 5px 0 0 5px;
+}
+
+.top .mido .map .nest .back-drop .drop-menu:first-child::after {
+  margin-left: 15px;
+  content: url("./images/Vector.png");
+}
+
+.top .mido .map .nest .back-drop .drop-menu:nth-child(2) {
+  width: 176px;
+}
+
+.top .mido .map .nest .back-drop .drop-menu:nth-child(2)::after {
+  margin-left: 15px;
+  content: url(./images/Vector.png);
+}
+
+.top .mido .map .nest .back-drop .drop-menu:last-child {
+  width: 58px;
+  background-color: #23A6F0;
+  border-radius: 0 5px 5px 0;
+}
+
+.top .mido .map .nest .back-drop .drop-menu #type {
+  display: none;
+  text-align: center;
+  width: inherit;
+  height: inherit;
+}
+
+.top .mido .map .nest .back-drop .drop-menu #type:hover {
+  display: block;
+}
+
+.next1 {
+  width: 85%;
+  border: 1px solid #23A6F0;
+  height: 623px;
+  margin: 2px auto;
+}
+/*# sourceMappingURL=rent.css.map */
