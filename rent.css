@@ -52,7 +52,7 @@ a {
 
 .top header {
   border-bottom: 1px solid white;
-  width: 85%;
+  width: 90%;
   margin: 30px auto;
   margin-top: 10px;
   display: -webkit-box;
@@ -94,7 +94,7 @@ a {
 }
 
 .top .mido {
-  width: 85%;
+  width: 90%;
   margin: 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,7 +220,7 @@ a {
 }
 
 .next1 {
-  width: 85%;
+  width: 90%;
   height: 623px;
   margin: 93px auto;
 }
@@ -258,14 +258,13 @@ a {
 }
 
 .next1 .features .right {
+  margin-right: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 50%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -275,6 +274,7 @@ a {
 }
 
 .next1 .features .right .feat {
+  color: #18191F;
   width: 159px;
   margin-right: 20px;
 }
