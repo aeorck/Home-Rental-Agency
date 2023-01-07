@@ -185,5 +185,47 @@ a {
     width: 85%;
     border: 1px solid #23A6F0;
     height: 623px;
-    margin: 2px auto;
+    margin: 93px auto;
+    h1{
+        text-transform: capitalize;
+        font-weight: 800;
+        font-size: 36px;
+        font-family: "Inter";
+        line-height: 64px;
+    }
+    .line{
+        width: 385px;
+        height: 4px;
+        background-color:#F4511E;
+        margin-top: -5px;
+        
+    }
+    .features{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid red;
+
+        .right{
+            display: flex;
+            flex-wrap: wrap;
+            width: 60%;
+            justify-content: space-evenly;
+            align-items: center;
+            .feat{
+                width: 159px;
+                img{
+                    margin-bottom: 21px;
+                }
+                p{
+                    width: inherit;
+                    height: 70px;
+                    font-size: 26px;
+                    font-weight: 600;
+                    font-family: "Inter";
+                }
+            }
+        }
+    }
 }
