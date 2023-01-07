@@ -23,6 +23,7 @@
 
 body {
     background-color: white;
+    overflow-x: hidden;
 }
 
 a {
@@ -109,9 +110,10 @@ a {
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                .dummy-map{
-                    img{
-                        width:inherit;
+
+                .dummy-map {
+                    img {
+                        width: inherit;
                     }
                 }
 
@@ -138,12 +140,13 @@ a {
                         font-size: 14px;
                         letter-spacing: .2px;
                         border: #E6E6E6 1px solid;
-    
+
 
                         &:first-child {
                             width: 128px;
                             border-radius: 5px 0 0 5px;
-                            &::after{
+
+                            &::after {
                                 // position: absolute;
                                 margin-left: 15px;
                                 content: url('./images/Vector.png');
@@ -152,13 +155,14 @@ a {
 
                         &:nth-child(2) {
                             width: 176px;
-                            &::after{
+
+                            &::after {
                                 margin-left: 15px;
                                 content: url(./images/Vector.png);
                             }
                         }
 
-                        &:last-child{
+                        &:last-child {
                             width: 58px;
                             background-color: #23A6F0;
                             border-radius: 0 5px 5px 0;
@@ -181,48 +185,92 @@ a {
     }
 }
 
-.next1{
+.next1 {
     width: 85%;
-    border: 1px solid #23A6F0;
     height: 623px;
     margin: 93px auto;
-    h1{
+
+    h1 {
         text-transform: capitalize;
         font-weight: 800;
         font-size: 36px;
         font-family: "Inter";
         line-height: 64px;
     }
-    .line{
+
+    .line {
         width: 385px;
         height: 4px;
-        background-color:#F4511E;
+        background-color: #F4511E;
         margin-top: -5px;
-        
+
     }
-    .features{
+
+    .features {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
-        border: 1px solid red;
 
-        .right{
+        .left {
+            img {
+                margin-left: -50px;
+            }
+        }
+
+        .right {
             display: flex;
             flex-wrap: wrap;
-            width: 60%;
-            justify-content: space-evenly;
+            width: fit-content;
+            justify-content: space-between;
             align-items: center;
-            .feat{
-                width: 159px;
-                img{
+
+            .feat {
+                .board {
+                    width: 77px;
+                    height: 77px;
+                    background: #f9f9f9;
+                    box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.15);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     margin-bottom: 21px;
                 }
-                p{
+
+                width: 159px;
+                margin-right: 20px;
+
+                &:nth-child(3) {
+                    p {
+                        width: 293px;
+                    }
+                }
+
+                &:nth-child(2) {
+                    p {
+                        width: 190px;
+                    }
+                }
+
+                &:nth-child(4) {
+                    p {
+                        width: 188px;
+                    }
+                }
+
+                &:nth-child(1n+4) {
+                    //Using a AP in selecting the 4th, 5th and 6th child
+                    margin-top: 100px;
+                }
+
+
+                p {
                     width: inherit;
                     height: 70px;
-                    font-size: 26px;
+                    font-size: 24px;
                     font-weight: 600;
+                    line-height: 35px;
                     font-family: "Inter";
                 }
             }
