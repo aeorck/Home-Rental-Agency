@@ -7,7 +7,10 @@
     font-family: "Inter";
     src: url(./resources/Inter-VariableFont_slntwght.ttf);
 }
-
+@font-face {
+    font-family: "Man Rope";
+    src: url(./resources/Manrope-Regular.ttf);
+}
 @font-face {
     font-family: "Poppins";
     src: url(./resources/Poppins-SemiBold.ttf);
@@ -240,6 +243,7 @@ a {
                     align-items: center;
                     margin-bottom: 21px;
                 }
+
                 color:#18191F;
                 width: 159px;
                 margin-right: 20px;
@@ -281,15 +285,53 @@ a {
     }
 }
 
-.next2{
-    width:100%;
-    margin:50px auto;
+.next2 {
+    width: 100%;
+    margin: 50px auto;
     border: 1px sienna solid;
     background-color: #F5F5F5;
     height: 100vh;
 
-    .properties{
+    .properties {
         width: 90%;
-        border: 1px solid red;
+        margin: 61px auto 0;
+
+        .listing {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .right {
+                p {
+                    font-weight: 800;
+                    font-size: 36px;
+                    font-family: "Inter";
+                    text-transform: capitalize;
+                }
+
+                .line {
+                    width: 84px;
+                    background-color: #F4511E;
+                    height: 3px;
+                }
+            }
+
+            .view {
+                width: 200px;
+                height: 65px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F4511E;
+                color: #fff;
+                border-radius: 5px;
+                font-family: "Man Rope";
+                font-weight: 500;
+                font-size: 17px;
+                cursor: pointer;
+                box-shadow: 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+            }
+        }
     }
 }

@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: "Man Rope";
+  src: url(./resources/Manrope-Regular.ttf);
+}
+
+@font-face {
   font-family: "Poppins";
   src: url(./resources/Poppins-SemiBold.ttf);
 }
@@ -338,6 +343,55 @@ a {
 
 .next2 .properties {
   width: 90%;
-  border: 1px solid red;
+  margin: 61px auto 0;
+}
+
+.next2 .properties .listing {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.next2 .properties .listing .right p {
+  font-weight: 800;
+  font-size: 36px;
+  font-family: "Inter";
+  text-transform: capitalize;
+}
+
+.next2 .properties .listing .right .line {
+  width: 84px;
+  background-color: #F4511E;
+  height: 3px;
+}
+
+.next2 .properties .listing .view {
+  width: 200px;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F4511E;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Man Rope";
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+          box-shadow: 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
 }
 /*# sourceMappingURL=rent.css.map */
