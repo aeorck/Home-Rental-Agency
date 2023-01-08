@@ -14,8 +14,18 @@
 }
 
 @font-face {
+  font-family: "DM Sans reg";
+  src: url(./resources/DMSans-Regular.ttf);
+}
+
+@font-face {
   font-family: "Poppins";
   src: url(./resources/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url(./resources/DMSans-Medium.ttf);
 }
 
 * {
@@ -338,7 +348,7 @@ a {
   margin: 50px auto;
   border: 1px sienna solid;
   background-color: #F5F5F5;
-  height: 100vh;
+  height: 200vh;
 }
 
 .next2 .properties {
@@ -393,5 +403,54 @@ a {
   cursor: pointer;
   -webkit-box-shadow: 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
           box-shadow: 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+}
+
+.next2 .properties .props {
+  margin-top: 70px;
+}
+
+.next2 .properties .props .rect {
+  width: 358px;
+  height: 521px;
+  border-radius: 27px;
+  background: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
+          box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
+}
+
+.next2 .properties .props .rect p {
+  width: 285px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 23px;
+  text-transform: capitalize;
+  margin-left: 27px;
+  margin-top: 18px;
+  line-height: 30px;
+}
+
+.next2 .properties .props .rect .room {
+  font-family: "DM Sans reg";
+  font-size: 18px;
+  color: #818181;
+  margin-left: 27px;
+  margin-top: 18px;
+}
+
+.next2 .properties .props .rect .pricing {
+  color: #F4511E;
+  margin-left: 27px;
+  margin-top: 3px;
+  font-size: 25.5px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=rent.css.map */
