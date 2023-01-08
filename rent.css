@@ -71,16 +71,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   width: 48%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-left: 226px;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -89,6 +85,15 @@ a {
 }
 
 .top header nav a:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-bottom: 2px solid white;
   padding-bottom: 25px;
 }
@@ -221,7 +226,7 @@ a {
 
 .next1 {
   width: 90%;
-  height: 623px;
+  height: 100vh;
   margin: 93px auto;
 }
 
@@ -321,5 +326,18 @@ a {
   font-weight: 600;
   line-height: 35px;
   font-family: "Inter";
+}
+
+.next2 {
+  width: 100%;
+  margin: 50px auto;
+  border: 1px sienna solid;
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+
+.next2 .properties {
+  width: 90%;
+  border: 1px solid red;
 }
 /*# sourceMappingURL=rent.css.map */

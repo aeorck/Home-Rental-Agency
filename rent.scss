@@ -60,17 +60,19 @@ a {
 
         nav {
             display: flex;
-            flex-direction: row;
             width: 48%;
             justify-content: space-between;
             margin-left: 226px;
-            font-size: 18px;
+            font-size: 1rem;
             font-weight: 400;
 
             a {
                 padding: 20px;
 
                 &:first-child {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     border-bottom: 2px solid white;
                     padding-bottom: 25px;
                 }
@@ -187,7 +189,7 @@ a {
 
 .next1 {
     width: 90%;
-    height: 623px;
+    height: 100vh;
     margin: 93px auto;
 
     h1 {
@@ -276,5 +278,18 @@ a {
                 }
             }
         }
+    }
+}
+
+.next2{
+    width:100%;
+    margin:50px auto;
+    border: 1px sienna solid;
+    background-color: #F5F5F5;
+    height: 100vh;
+
+    .properties{
+        width: 90%;
+        border: 1px solid red;
     }
 }
