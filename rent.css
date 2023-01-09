@@ -346,7 +346,6 @@ a {
 .next2 {
   width: 100%;
   margin: 50px auto;
-  border: 1px sienna solid;
   background-color: #F5F5F5;
   height: 200vh;
 }
@@ -452,5 +451,61 @@ a {
   font-family: "DM Sans";
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.next2 .properties .props .rect .line {
+  width: 100%;
+  border: 1px solid #E4E4E4;
+  margin-top: 10px;
+}
+
+.next2 .properties .props .rect .bottom-list {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.next2 .properties .props .rect .bottom-list .first .second .third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(80%/3);
+  height: 64px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1px;
+  border: 1px solid purple;
+}
+
+.next2 .properties .props .rect .bottom-list .first .second .third .within {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.next2 .properties .props .rect .bottom-list .first .second .third .within .aest img {
+  width: 17px;
+}
+
+.next2 .properties .props .rect .bottom-list .first .second .third .within .numb {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
 }
 /*# sourceMappingURL=rent.css.map */

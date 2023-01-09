@@ -300,7 +300,6 @@ a {
 .next2 {
     width: 100%;
     margin: 50px auto;
-    border: 1px sienna solid;
     background-color: #F5F5F5;
     height: 200vh;
 
@@ -369,7 +368,7 @@ a {
                     line-height: 30px;
                 }
 
-                .room{
+                .room {
                     font-family: "DM Sans reg";
                     font-size: 18px;
                     color: #818181;
@@ -377,16 +376,57 @@ a {
                     margin-top: 18px;
                 }
 
-                .pricing{
-                  color: #F4511E;
-                  margin-left: 27px;
-                  margin-top: 3px;
-                  font-size: 25.5px;
-                  font-family: "DM Sans"; 
-                  font-weight: 700;
-                  text-transform: capitalize;
+                .pricing {
+                    color: #F4511E;
+                    margin-left: 27px;
+                    margin-top: 3px;
+                    font-size: 25.5px;
+                    font-family: "DM Sans";
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+                .line{
+                    width: 100%;
+                    border: 1px solid #E4E4E4;
+                    margin-top: 10px;
+                }
+
+                .bottom-list {
+                    width: 80%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .first .second .third {
+                        display: flex;
+                        width: calc(80%/3);
+                        height: 64px;
+                        justify-content:flex-start;
+                        align-items: center;
+                        margin-top: 1px;
+                        border: 1px solid purple;
+
+                        .within {
+                            display: flex;
+                            width: 35px;
+                            align-items: center;
+                            justify-content: space-between;
+                            .aest {
+                                img {
+                                    width: 17px;
+                                }
+                            }
+
+                            .numb {
+                                font-family: "DM Sans";
+                                font-weight: 700;
+                                font-size: 18px;
+                            }
+                        }
+                    }
                 }
             }
+
         }
     }
 }
