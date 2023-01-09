@@ -470,11 +470,11 @@ a {
           justify-content: space-between;
 }
 
-.next2 .properties .props .rect .bottom-list .first .second .third {
+.next2 .properties .props .rect .bottom-list .first, .next2 .properties .props .rect .bottom-list .second, .next2 .properties .props .rect .bottom-list .third {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: calc(80%/3);
+  width: calc(80%/4);
   height: 64px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -483,10 +483,9 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 1px;
-  border: 1px solid purple;
 }
 
-.next2 .properties .props .rect .bottom-list .first .second .third .within {
+.next2 .properties .props .rect .bottom-list .first .within, .next2 .properties .props .rect .bottom-list .second .within, .next2 .properties .props .rect .bottom-list .third .within {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -499,13 +498,21 @@ a {
           justify-content: space-between;
 }
 
-.next2 .properties .props .rect .bottom-list .first .second .third .within .aest img {
+.next2 .properties .props .rect .bottom-list .first .within .aest img, .next2 .properties .props .rect .bottom-list .second .within .aest img, .next2 .properties .props .rect .bottom-list .third .within .aest img {
   width: 17px;
 }
 
-.next2 .properties .props .rect .bottom-list .first .second .third .within .numb {
+.next2 .properties .props .rect .bottom-list .first .within .numb, .next2 .properties .props .rect .bottom-list .second .within .numb, .next2 .properties .props .rect .bottom-list .third .within .numb {
   font-family: "DM Sans";
   font-weight: 700;
   font-size: 18px;
+}
+
+.next2 .properties .props .rect .bottom-list .second {
+  width: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-left: 2px solid #E4E4E4;
 }
 /*# sourceMappingURL=rent.css.map */

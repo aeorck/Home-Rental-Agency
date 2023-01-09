@@ -397,14 +397,13 @@ a {
                     display: flex;
                     justify-content: space-between;
 
-                    .first .second .third {
+                    .first {
                         display: flex;
-                        width: calc(80%/3);
+                        width: calc(80%/4);
                         height: 64px;
                         justify-content:flex-start;
                         align-items: center;
                         margin-top: 1px;
-                        border: 1px solid purple;
 
                         .within {
                             display: flex;
@@ -423,6 +422,17 @@ a {
                                 font-size: 18px;
                             }
                         }
+                    }
+
+                    .second{
+                        @extend .first;
+                        width:auto;
+                        justify-content: center;
+                    border-left: 2px solid #E4E4E4;
+                    }
+
+                    .third{
+                        @extend .first;
                     }
                 }
             }
