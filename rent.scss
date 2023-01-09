@@ -300,7 +300,6 @@ a {
 .next2 {
     width: 100%;
     margin: 50px auto;
-    border: 1px sienna solid;
     background-color: #F5F5F5;
     height: 200vh;
 
@@ -369,7 +368,7 @@ a {
                     line-height: 30px;
                 }
 
-                .room{
+                .room {
                     font-family: "DM Sans reg";
                     font-size: 18px;
                     color: #818181;
@@ -377,16 +376,55 @@ a {
                     margin-top: 18px;
                 }
 
-                .pricing{
-                  color: #F4511E;
-                  margin-left: 27px;
-                  margin-top: 3px;
-                  font-size: 25.5px;
-                  font-family: "DM Sans"; 
-                  font-weight: 700;
-                  text-transform: capitalize;
+                .pricing {
+                    color: #F4511E;
+                    margin-left: 27px;
+                    margin-top: 3px;
+                    font-size: 25.5px;
+                    font-family: "DM Sans";
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+                .line{
+                    width: 100%;
+                    height: 2px;
+                    background-color: #E4E4E4;
+                }
+
+                .bottom-list {
+                    width: 85%;
+                    margin: 0 auto;
+                    display: flex;
+
+                    .first {
+                        display: flex;
+                        width: calc(85%/3);
+                        height: 64px;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 16px;
+
+                        .within {
+                            display: flex;
+                            width: 35px;
+                            align-items: center;
+                            justify-content: space-between;
+                            .aest {
+                                img {
+                                    width: 15px;
+                                }
+                            }
+
+                            .numb {
+                                font-family: "DM Sans";
+                                font-weight: 700;
+                                font-size: 18px;
+                            }
+                        }
+                    }
                 }
             }
+
         }
     }
 }
