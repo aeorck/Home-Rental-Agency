@@ -399,11 +399,10 @@ a {
 
                     .first {
                         display: flex;
-                        width: calc(80%/4);
-                        height: 64px;
+                        width: 30%;
+                        height: 66px;
                         justify-content:flex-start;
                         align-items: center;
-                        margin-top: 1px;
 
                         .within {
                             display: flex;
@@ -426,13 +425,15 @@ a {
 
                     .second{
                         @extend .first;
-                        width:auto;
+                        width:40%;
                         justify-content: center;
-                    border-left: 2px solid #E4E4E4;
+                    border-left: 1px solid #E4E4E4;
+                        border-right: 1px solid #E4E4E4;
                     }
 
                     .third{
                         @extend .first;
+                        justify-content: flex-end;
                     }
                 }
             }

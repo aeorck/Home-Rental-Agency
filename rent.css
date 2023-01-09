@@ -474,15 +474,14 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: calc(80%/4);
-  height: 64px;
+  width: 30%;
+  height: 66px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 1px;
 }
 
 .next2 .properties .props .rect .bottom-list .first .within, .next2 .properties .props .rect .bottom-list .second .within, .next2 .properties .props .rect .bottom-list .third .within {
@@ -509,10 +508,17 @@ a {
 }
 
 .next2 .properties .props .rect .bottom-list .second {
-  width: auto;
+  width: 40%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-left: 2px solid #E4E4E4;
+  border-left: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
+}
+
+.next2 .properties .props .rect .bottom-list .third {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=rent.css.map */
