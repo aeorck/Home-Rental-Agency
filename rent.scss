@@ -301,7 +301,7 @@ a {
     width: 100%;
     margin: 50px auto;
     background-color: #F5F5F5;
-    height: 200vh;
+    height: 250vh;
 
     .properties {
         width: 90%;
@@ -312,6 +312,7 @@ a {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding-top: 50px;
 
             .right {
                 p {
