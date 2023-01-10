@@ -431,11 +431,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
-          box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
 }
 
-.next2 .properties .props .rect p {
+.next2 .properties .props .rect::hov p {
   width: 285px;
   font-family: "DM Sans";
   font-weight: 700;
@@ -535,5 +533,28 @@ a {
 
 .next2 .properties .props .rect:nth-child(n+4) {
   margin-top: 60px;
+}
+
+.next2 .pagination {
+  width: calc((90px*2) + (50px *3));
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 85px;
+}
+
+.next2 .pagination .numbering {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(50px*3);
 }
 /*# sourceMappingURL=rent.css.map */

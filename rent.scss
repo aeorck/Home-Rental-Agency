@@ -362,7 +362,7 @@ a {
                 background: #ffff;
                 display: flex;
                 flex-direction: column;
-                box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
+              //TO add hoverbox shadow
 
                 p {
                     width: 285px;
@@ -451,4 +451,20 @@ a {
 
         }
     }
+
+    .pagination{
+        width: calc((90px*2) + (50px *3));
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 85px;
+        .numbering{
+
+            display: flex;
+            width: calc(50px*3);
+        }
+    }
+
 }
