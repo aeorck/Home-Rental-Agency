@@ -433,7 +433,12 @@ a {
           flex-direction: column;
 }
 
-.next2 .properties .props .rect::hov p {
+.next2 .properties .props .rect::hover {
+  -webkit-box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
+          box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
+}
+
+.next2 .properties .props .rect p {
   width: 285px;
   font-family: "DM Sans";
   font-weight: 700;

@@ -363,7 +363,10 @@ a {
                 display: flex;
                 flex-direction: column;
               //TO add hoverbox shadow
+                &::hover{
+                    box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
 
+                }
                 p {
                     width: 285px;
                     font-family: "DM Sans";
