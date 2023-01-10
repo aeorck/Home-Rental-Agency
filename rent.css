@@ -541,6 +541,7 @@ a {
 }
 
 .next2 .pagination {
+  text-transform: capitalize;
   width: calc((90px*2) + (50px *3));
   border: 1px solid red;
   display: -webkit-box;
@@ -554,6 +555,23 @@ a {
           align-items: center;
   margin: auto;
   margin-top: 85px;
+  font-family: "DM Sans";
+  font-size: 18px;
+}
+
+.next2 .pagination .prev, .next2 .pagination .next {
+  width: 90px;
+  text-align: center;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .next2 .pagination .numbering {
@@ -561,5 +579,33 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: calc(50px*3);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 40px;
+}
+
+.next2 .pagination .numbering .a, .next2 .pagination .numbering .b {
+  width: 45px;
+  height: 40px;
+}
+
+.next2 .pagination .numbering .b {
+  width: 45px;
+  border-left: #18191F 2px solid;
+  border-right: #18191F 2px solid;
+}
+
+.next2 .pagination .numbering .c, .next2 .pagination .numbering .a, .next2 .pagination .numbering .b {
+  width: 45px;
+  display: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=rent.css.map */
