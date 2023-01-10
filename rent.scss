@@ -523,12 +523,13 @@ a {
                 width: 50px;
                 height: 74px;
                 display: inherit;
+                border-left:1px solid #BDBDBD;
                 justify-content: center;
                 align-items: center;
                 background-color: #F4511E !important;
                 color: #ffff !important;
                 // border-left: #18191F 2px solid;
-                // border-right: #18191F 2px solid;
+                border-right: #BDBDBD 1px solid;
             }
 
             .c {

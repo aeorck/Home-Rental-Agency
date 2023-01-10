@@ -628,6 +628,7 @@ a {
   width: 50px;
   height: 74px;
   display: inherit;
+  border-left: 1px solid #BDBDBD;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -636,5 +637,6 @@ a {
           align-items: center;
   background-color: #F4511E !important;
   color: #ffff !important;
+  border-right: #BDBDBD 1px solid;
 }
 /*# sourceMappingURL=rent.css.map */
