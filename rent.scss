@@ -358,7 +358,7 @@ a {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            
+
 
             .rect {
                 width: 358px;
@@ -367,11 +367,13 @@ a {
                 background: #ffff;
                 display: flex;
                 flex-direction: column;
-              //TO add hoverbox shadow
-                &::hover{
+
+                //TO add hoverbox shadow
+                &::hover {
                     box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
 
                 }
+
                 p {
                     width: 285px;
                     font-family: "DM Sans";
@@ -400,7 +402,8 @@ a {
                     font-weight: 700;
                     text-transform: capitalize;
                 }
-                .line{
+
+                .line {
                     width: 100%;
                     border: 1px solid #E4E4E4;
                     margin-top: 10px;
@@ -416,7 +419,7 @@ a {
                         display: flex;
                         width: 30%;
                         height: 66px;
-                        justify-content:flex-start;
+                        justify-content: flex-start;
                         align-items: center;
 
                         .within {
@@ -424,6 +427,7 @@ a {
                             width: 35px;
                             align-items: center;
                             justify-content: space-between;
+
                             .aest {
                                 img {
                                     width: 17px;
@@ -438,21 +442,21 @@ a {
                         }
                     }
 
-                    .second{
+                    .second {
                         @extend .first;
-                        width:40%;
+                        width: 40%;
                         justify-content: center;
-                    border-left: 1px solid #E4E4E4;
+                        border-left: 1px solid #E4E4E4;
                         border-right: 1px solid #E4E4E4;
                     }
 
-                    .third{
+                    .third {
                         @extend .first;
                         justify-content: flex-end;
                     }
                 }
 
-                &:nth-child(n+4){
+                &:nth-child(n+4) {
                     margin-top: 60px;
                 }
             }
@@ -460,7 +464,7 @@ a {
         }
     }
 
-    .pagination{
+    .pagination {
         text-transform: capitalize;
         width: calc((90px*2) + (50px *3));
         border: 1px solid red;
@@ -470,10 +474,14 @@ a {
         margin: auto;
         margin-top: 85px;
         font-family: "Monteserrat";
+        background-color: #ffff;
         font-size: 16px;
         font-weight: 700;
         border: 1px solid #BDBDBD;
-        .prev{
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 7px;
+
+        .prev {
             width: 90px;
             text-align: center;
             height: 74px;
@@ -483,39 +491,51 @@ a {
             background-color: #F3F3F3;
             border: 1px solid #BDBDBD;
             color: #BDBDBD;
+            border-radius: 7px 0 0 7px;
         }
 
-        .next{
+        .next {
             @extend .prev;
+            color: #F4511E;
+            background-color: #ffff !important;
+            border-radius: 0 7px 7px 0 !important;
         }
-        .numbering{
+
+        .numbering {
             display: flex;
             width: calc(50px*3);
             align-items: center;
             justify-content: space-around;
             height: 74px;
-            .a{
+            border: 1px solid #BDBDBD;
+
+            .a {
                 width: 50px;
                 height: 74px;
-                @extend .c;
-                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #F4511E;
+
             }
 
-            .b{
+            .b {
                 width: 50px;
-                @extend .a;
+                height: 74px;
+                display: inherit;
+                justify-content: center;
+                align-items: center;
+                background-color: #F4511E !important;
+                color: #ffff !important;
                 // border-left: #18191F 2px solid;
                 // border-right: #18191F 2px solid;
             }
 
-            .c{
-                width: 50px;
-                display: inherit;
-                justify-content: center;
-                align-items: center;
-            
+            .c {
+                @extend .a;
+
             }
-            
+
         }
     }
 

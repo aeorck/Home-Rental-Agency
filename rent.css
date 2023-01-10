@@ -561,9 +561,13 @@ a {
   margin: auto;
   margin-top: 85px;
   font-family: "Monteserrat";
+  background-color: #ffff;
   font-size: 16px;
   font-weight: 700;
   border: 1px solid #BDBDBD;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
 }
 
 .next2 .pagination .prev, .next2 .pagination .next {
@@ -582,6 +586,13 @@ a {
   background-color: #F3F3F3;
   border: 1px solid #BDBDBD;
   color: #BDBDBD;
+  border-radius: 7px 0 0 7px;
+}
+
+.next2 .pagination .next {
+  color: #F4511E;
+  background-color: #ffff !important;
+  border-radius: 0 7px 7px 0 !important;
 }
 
 .next2 .pagination .numbering {
@@ -595,19 +606,27 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 74px;
+  border: 1px solid #BDBDBD;
 }
 
-.next2 .pagination .numbering .a, .next2 .pagination .numbering .b {
+.next2 .pagination .numbering .a, .next2 .pagination .numbering .c {
   width: 50px;
   height: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #F4511E;
 }
 
 .next2 .pagination .numbering .b {
   width: 50px;
-}
-
-.next2 .pagination .numbering .c, .next2 .pagination .numbering .a, .next2 .pagination .numbering .b {
-  width: 50px;
+  height: 74px;
   display: inherit;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -615,5 +634,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #F4511E !important;
+  color: #ffff !important;
 }
 /*# sourceMappingURL=rent.css.map */
