@@ -541,3 +541,36 @@ a {
     }
 
 }
+
+.next3{
+    width: 100%;
+    .flexi{
+        display: flex;
+        width: 90%;
+        margin: 20px auto;
+        justify-content: space-between;
+        .image{
+            width: 580px;
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap: wrap;
+            gap:20px;
+            img{
+                &:nth-child(2){
+                    height: 270px;
+                    align-self: flex-end;
+                }
+
+                &:nth-child(3){
+                    width: 212px;
+                    height: 285px;
+                }
+
+                &:nth-child(4){
+                    width: 338px;
+                    height: 336px;
+                }
+            }
+        }
+    }
+}

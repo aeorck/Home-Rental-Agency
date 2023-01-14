@@ -639,4 +639,45 @@ a {
   color: #ffff !important;
   border-right: #BDBDBD 1px solid;
 }
+
+.next3 {
+  width: 100%;
+}
+
+.next3 .flexi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.next3 .flexi .image {
+  width: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.next3 .flexi .image img:nth-child(2) {
+  height: 270px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.next3 .flexi .image img:nth-child(3) {
+  width: 212px;
+  height: 285px;
+}
+
+.next3 .flexi .image img:nth-child(4) {
+  width: 338px;
+  height: 336px;
+}
 /*# sourceMappingURL=rent.css.map */
