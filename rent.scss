@@ -564,10 +564,14 @@ a {
             p{
                 position: absolute;
                 z-index: 1;
-                top: 40px;
+                top: 30px;
                 width: 199px;
-                
+                font-family: "Inter";
+                font-size: 20px;
+                line-height: 20px;
+                font-weight: 600;           
                 color: #fff;
+                text-align: center;
             }
             img {
                 &:nth-child(2) {
