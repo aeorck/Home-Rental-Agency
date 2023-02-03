@@ -523,7 +523,7 @@ a {
                 width: 50px;
                 height: 74px;
                 display: inherit;
-                border-left:1px solid #BDBDBD;
+                border-left: 1px solid #BDBDBD;
                 justify-content: center;
                 align-items: center;
                 background-color: #F4511E !important;
@@ -542,34 +542,70 @@ a {
 
 }
 
-.next3{
+.next3 {
     width: 100%;
-    .flexi{
+
+    .flexi {
         display: flex;
         width: 90%;
         margin: 20px auto;
         justify-content: space-between;
-        .image{
+
+        .image {
             width: 580px;
             display: flex;
             // justify-content: space-between;
             flex-wrap: wrap;
-            gap:20px;
-            img{
-                &:nth-child(2){
+            gap: 20px;
+
+           .mingo{
+            display: flex;
+            justify-content: center;
+            p{
+                position: absolute;
+                z-index: 1;
+                top: 40px;
+                width: 199px;
+                
+                color: #fff;
+            }
+            img {
+                &:nth-child(2) {
                     height: 270px;
                     align-self: flex-end;
                 }
 
-                &:nth-child(3){
+                &:nth-child(3) {
                     width: 212px;
                     height: 285px;
                 }
 
-                &:nth-child(4){
+                &:nth-child(4) {
                     width: 338px;
                     height: 336px;
                 }
+            }
+           }
+        }
+
+        .case {
+            width: 450px;
+            height: fit-content;
+            align-self: center;
+            font-family: "Inter";
+
+            h1 {
+                font-size: 40px;
+                font-weight: 800;
+                width: 444px;
+                line-height: 54px;
+            }
+
+            .sentence{
+                margin-top: 16px;
+                line-height: 32px;
+                width: 444px;
+
             }
         }
     }
