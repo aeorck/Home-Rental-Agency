@@ -797,4 +797,9 @@ a {
   font-size: 24px;
   text-align: center;
 }
+
+.form-content .form-section {
+  width: 80%;
+  margin: auto;
+}
 /*# sourceMappingURL=rent.css.map */
