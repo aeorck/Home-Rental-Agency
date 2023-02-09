@@ -424,9 +424,11 @@
                 <!--Images with absolute text on the top-->
                 <div class="mingo">
                     <p>Flexible Leases</p>
-                    <div class="back"> <div class="ba"></div> </div>
+                    <div class="back">
+                        <div class="ba"></div>
+                    </div>
 
-                    <img src="./images/unsplash_nEtpvJjnPVo.png" alt="bedroom" height="334px" width="250px" >
+                    <img src="./images/unsplash_nEtpvJjnPVo.png" alt="bedroom" height="334px" width="250px">
                 </div>
 
                 <div class="mingo">
@@ -474,9 +476,46 @@
         </div>
     </section>
 
-    <div class="form-content">
-        
-    </div>
+    <section class="form-content">
+        <h3>Your Property with us and be confident that your room will be filled out!</h3>
+        <div class="form-section">
+            <form action="./reseq" method="get">
+                <label for="name">Name <span>*</span>
+                </label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="address">Address <span>*</span></label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="unit">Unit Nunmber <span>*</span></label>
+                <input type="text" name="unit" id="unit" required>
+
+                <label for="city">City <span>*</span></label>
+                <select name="city" id="city" required>
+                    <option value="abuja">Abuja</option>
+                    <option value="yenagoa">Yenagoa</option>
+                    <option value="calabar">Calabar</option>
+                </select>
+
+                <label for="state">State <span>*</span></label>
+                <select name="state" id="state" required>
+                    <option value="FCT">FCT</option>
+                    <option value="bayelsa">Bayelsa</option>
+                    <option value="cross-river">Cross-River</option>
+                </select>
+
+                <label for="price">Price</label>
+                <input type="number" required>
+
+                <label for="roomtype">Room Type <span>*</span></label>
+                <select name="roomtype" id="roomtype">
+                    <option value="single">Single</option>
+                    <option value="ensuite">Ensuite</option>
+                    <option value="double">Double</option>
+                </select>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>

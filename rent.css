@@ -785,4 +785,16 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.form-content {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.form-content h3 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
 /*# sourceMappingURL=rent.css.map */
