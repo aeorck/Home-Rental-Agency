@@ -360,7 +360,7 @@ a {
             justify-content: space-between;
 
 
-            .rect{
+            .rect {
                 width: 345px;
                 height: 521px;
                 border-radius: 27px;
@@ -558,55 +558,63 @@ a {
             flex-wrap: wrap;
             gap: 15px;
 
-           .mingo{
-            display: flex;
-            justify-content: center;
-            p{
-                position: absolute;
-                z-index: 2;
-                top: 30px;
-                width: auto;
-                font-family: "Inter";
-                font-size: 24px;
-                line-height: 20px;
-                font-weight: 600;           
-                color: #fff;
-                text-align: center;
-            }
-            .back{
-            background-color: hsla(0, 0%, 0%, 0.26);
-            position: absolute;
-            top: 0;
-            z-index: 1;
-            border-radius:20px;
-            transition: background-color .4s;
-            filter: contrast(1);
-            &:hover{
-                background-color: transparent;
-               
-            }
-            }
-            .ba{
-                height: 334px;
-                width: 250px;
-            }
-            .bb{
-                height: 270px;
-                width: 270px;
-            }
-            .bc{
-                height: 285px;
-                width: 212px;
-            }
-            .bd{
-                height: 336px;
-                width: 318px;
-                
-            }
-           
-                &:nth-child(2){
+            .mingo {
+                display: flex;
+                justify-content: center;
+
+                p {
+                    position: absolute;
+                    z-index: 2;
+                    top: 30px;
+                    width: auto;
+                    font-family: "Inter";
+                    font-size: 24px;
+                    line-height: 20px;
+                    font-weight: 600;
+                    color: #fff;
+                    text-align: center;
+                }
+
+                .back {
+                    background-color: hsla(0, 0%, 0%, 0.26);
+                    position: absolute;
+                    top: 0;
+                    z-index: 1;
+                    border-radius: 20px;
+                    transition: background-color .4s;
+                    filter: contrast(1);
+
+                    &:hover {
+                        background-color: transparent;
+
+                    }
+                }
+
+                .ba {
+                    height: 334px;
+                    width: 250px;
+                }
+
+                .bb {
+                    height: 270px;
+                    width: 270px;
+                }
+
+                .bc {
+                    height: 285px;
+                    width: 212px;
+                }
+
+                .bd {
+                    height: 336px;
+                    width: 318px;
+
+                }
+
+                &:nth-child(2) {
                     align-self: flex-end;
                 }
+
                 &:nth-child(3) {
                     width: 212px;
                     height: 285px;
@@ -617,27 +625,44 @@ a {
                     height: 336px;
                 }
             }
-           }
-        }
-
-        .case {
-            width: 450px;
-            height: fit-content;
-            align-self: center;
-            font-family: "Inter";
-
-            h1 {
-                font-size: 40px;
-                font-weight: 800;
-                width: 444px;
-                line-height: 54px;
-            }
-
-            .sentence{
-                margin-top: 16px;
-                line-height: 32px;
-                width: 400px;
-
-            }
         }
     }
+
+    .case {
+        width: 450px;
+        height: fit-content;
+        align-self: center;
+        font-family: "Inter";
+        font-feature-settings: 'salt' on, 'liga' off;
+
+        h1 {
+            font-size: 40px;
+            font-weight: 800;
+            width: 444px;
+            line-height: 54px;
+        }
+
+        .sentence {
+            margin-top: 16px;
+            line-height: 32px;
+            width: 400px;
+            font-size: 18px;
+        }
+
+        .search-rooms {
+            width: 185px;
+            height: 63px;
+            margin-top: 62px;
+            background: #F4511E;
+            border-radius: 13px;
+            color: #ffff;
+            font-family: "Inter";
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+}

@@ -747,6 +747,8 @@ a {
       -ms-grid-row-align: center;
       align-self: center;
   font-family: "Inter";
+  -webkit-font-feature-settings: 'salt' on, 'liga' off;
+          font-feature-settings: 'salt' on, 'liga' off;
 }
 
 .next3 .case h1 {
@@ -760,5 +762,27 @@ a {
   margin-top: 16px;
   line-height: 32px;
   width: 400px;
+  font-size: 18px;
+}
+
+.next3 .case .search-rooms {
+  width: 185px;
+  height: 63px;
+  margin-top: 62px;
+  background: #F4511E;
+  border-radius: 13px;
+  color: #ffff;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=rent.css.map */
