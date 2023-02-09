@@ -676,15 +676,45 @@ a {
 
 .next3 .flexi .image .mingo p {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   top: 30px;
-  width: 199px;
+  width: auto;
   font-family: "Inter";
-  font-size: 20px;
+  font-size: 24px;
   line-height: 20px;
   font-weight: 600;
   color: #fff;
   text-align: center;
+}
+
+.next3 .flexi .image .mingo .back {
+  background-color: rgba(0, 0, 0, 0.26);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  border-radius: 20px;
+  -webkit-filter: contrast(1);
+          filter: contrast(1);
+}
+
+.next3 .flexi .image .mingo .ba {
+  height: 334px;
+  width: 250px;
+}
+
+.next3 .flexi .image .mingo .bb {
+  height: 270px;
+  width: 270px;
+}
+
+.next3 .flexi .image .mingo .bc {
+  height: 212px;
+  width: 285px;
+}
+
+.next3 .flexi .image .mingo .bd {
+  height: 336px;
+  width: 318px;
 }
 
 .next3 .flexi .image .mingo:nth-child(2) {
