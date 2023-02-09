@@ -787,7 +787,7 @@ a {
 }
 
 .form-content {
-  width: 80%;
+  width: 100%;
   margin: 100px auto;
 }
 
@@ -796,6 +796,7 @@ a {
   font-weight: 500;
   font-size: 24px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .form-content .form-section {
