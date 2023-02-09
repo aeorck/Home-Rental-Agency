@@ -693,8 +693,14 @@ a {
   top: 0;
   z-index: 1;
   border-radius: 20px;
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s;
   -webkit-filter: contrast(1);
           filter: contrast(1);
+}
+
+.next3 .flexi .image .mingo .back:hover {
+  background-color: transparent;
 }
 
 .next3 .flexi .image .mingo .ba {
@@ -708,8 +714,8 @@ a {
 }
 
 .next3 .flexi .image .mingo .bc {
-  height: 212px;
-  width: 285px;
+  height: 285px;
+  width: 212px;
 }
 
 .next3 .flexi .image .mingo .bd {

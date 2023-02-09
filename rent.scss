@@ -579,7 +579,12 @@ a {
             top: 0;
             z-index: 1;
             border-radius:20px;
+            transition: background-color .4s;
             filter: contrast(1);
+            &:hover{
+                background-color: transparent;
+               
+            }
             }
             .ba{
                 height: 334px;
@@ -590,8 +595,8 @@ a {
                 width: 270px;
             }
             .bc{
-                height: 212px;
-                width: 285px;
+                height: 285px;
+                width: 212px;
             }
             .bd{
                 height: 336px;
