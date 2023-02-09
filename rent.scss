@@ -309,7 +309,7 @@ a {
     height: 250vh;
 
     .properties {
-        width: 90%;
+        width: 80%;
         margin: 61px auto 0;
 
         .listing {
@@ -361,7 +361,7 @@ a {
 
 
             .rect {
-                width: 358px;
+                width: 345px;
                 height: 521px;
                 border-radius: 27px;
                 background: #ffff;
@@ -369,7 +369,7 @@ a {
                 flex-direction: column;
 
                 //TO add hoverbox shadow
-                &::hover {
+                &:hover {
                     box-shadow: 0px 34.0693px 36.1986px rgba(0, 0, 0, 0.133714);
 
                 }
@@ -557,6 +557,7 @@ a {
             // justify-content: space-between;
             flex-wrap: wrap;
             gap: 20px;
+            border: 1px solid saddlebrown;
 
            .mingo{
             display: flex;
