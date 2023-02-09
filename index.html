@@ -482,43 +482,64 @@
 
             <p>Add New Property</p>
             <form action="./reseq" method="get">
-                <label for="name">Name <span>*</span>
-                </label>
-                <input type="text" id="name" name="name" required>
+                <div>
+                    <label for="name">Name <span>*</span>
+                    </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-                <label for="address">Address <span>*</span></label>
-                <input type="text" id="address" name="address" required>
+                <div> <label for="address">Address <span>*</span></label>
+                    <input type="text" id="address" name="address" required>
 
-                <label for="unit">Unit Nunmber <span>*</span></label>
-                <input type="text" name="unit" id="unit" required>
+                </div>
 
+                <div><label for="unit">Unit Nunmber <span>*</span></label>
+                    <input type="text" name="unit" id="unit" required>
+                </div>
+
+                <div>
                 <label for="city">City <span>*</span></label>
                 <select name="city" id="city" required>
                     <option value="abuja">Abuja</option>
                     <option value="yenagoa">Yenagoa</option>
                     <option value="calabar">Calabar</option>
                 </select>
+                </div>
 
+                <div>
                 <label for="state">State <span>*</span></label>
                 <select name="state" id="state" required>
                     <option value="FCT">FCT</option>
                     <option value="bayelsa">Bayelsa</option>
                     <option value="cross-river">Cross-River</option>
                 </select>
+                </div>
 
+                <div>
                 <label for="price">Price</label>
                 <input type="number" required>
-
-                <label for="roomtype">Room Type <span>*</span></label>
+</div>
+               
+<div><label for="roomtype">Room Type <span>*</span></label>
                 <select name="roomtype" id="roomtype">
                     <option value="single">Single</option>
                     <option value="ensuite">Ensuite</option>
                     <option value="double">Double</option>
                 </select>
+</div>
 
+<div>
                 <label for="description">Description</label>
                 <input type="text" name="description" id="description" required>
-            </form>
+</div>
+
+<div>
+                <label for="upload_photos">Upload Photos</label>
+                <input type="file" name="upload_photos" id="upload_photos" required>
+</div>
+<div>
+                <button type="submit">Add New Property</button>
+            </div></form>
         </div>
     </section>
 </body>

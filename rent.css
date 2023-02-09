@@ -803,4 +803,23 @@ a {
   width: 80%;
   margin: auto;
 }
+
+.form-content form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #Ffff;
+  -webkit-box-shadow: 0px 4px 63px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 63px rgba(0, 0, 0, 0.15);
+}
+
+.form-content form label {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 17px;
+  display: block;
+}
 /*# sourceMappingURL=rent.css.map */
