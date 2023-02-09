@@ -547,7 +547,7 @@ a {
 
     .flexi {
         display: flex;
-        width: 90%;
+        width: 80%;
         margin: 20px auto;
         justify-content: space-between;
 
@@ -556,8 +556,7 @@ a {
             display: flex;
             // justify-content: space-between;
             flex-wrap: wrap;
-            gap: 20px;
-            border: 1px solid saddlebrown;
+            gap: 15px;
 
            .mingo{
             display: flex;
@@ -574,12 +573,10 @@ a {
                 color: #fff;
                 text-align: center;
             }
-            img {
-                &:nth-child(2) {
-                    height: 270px;
+           
+                &:nth-child(2){
                     align-self: flex-end;
                 }
-
                 &:nth-child(3) {
                     width: 212px;
                     height: 285px;
@@ -614,4 +611,3 @@ a {
             }
         }
     }
-}
